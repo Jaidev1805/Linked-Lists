@@ -6,7 +6,7 @@ It defines a singly-linked list data structure, along with common list operation
 ## 📚 Overview
 
 A linked list is a linear collection of data elements (nodes), where each node points to the next node in the list.  
-While JavaScript arrays offer built-in dynamic sizing and indexed access, building a linked list manually provides a strong foundation in data structures and helps understand how lists, pointers, and node-based data structures work. :contentReference[oaicite:1]{index=1}
+While JavaScript arrays offer built-in dynamic sizing and indexed access, building a linked list manually provides a strong foundation in data structures and helps understand how lists, pointers, and node-based data structures work.
 
 ## 🧱 Implementation
 
@@ -21,7 +21,7 @@ While JavaScript arrays offer built-in dynamic sizing and indexed access, buildi
 
 ### Methods
 
-Your `LinkedList` class (or factory) implements the following methods: :contentReference[oaicite:2]{index=2}
+My `LinkedList` class implements the following methods:
 
 | Method | Description |
 |--------|-------------|
@@ -42,8 +42,6 @@ Your `LinkedList` class (or factory) implements the following methods: :contentR
 ## 🧪 Example Usage
 
 ```js
-import { LinkedList } from './LinkedList.js';  // or require, depending on setup
-
 const list = new LinkedList();
 
 list.append("dog");
